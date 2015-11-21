@@ -2,7 +2,7 @@ declare class FormData {
   static LINE_BREAK: string;
   static DEFAULT_CONTENT_TYPE: string;
 
-  append (key: string, value: any, options?: string | FormData.Options): this;
+  append (key: string, value: any, options?: string | FormData.Options): FormData;
   getHeaders <T> (userHeaders?: T): T & FormData.Headers;
   getCustomHeaders (contentType?: string): FormData.CustomHeaders;
   getBoundary (): string;
