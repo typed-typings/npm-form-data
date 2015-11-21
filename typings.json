@@ -1,0 +1,5 @@
+{
+  "name": "form-data",
+  "main": "lib/form_data.d.ts",
+  "browser": "lib/browser.d.ts"
+}
