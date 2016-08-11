@@ -14,7 +14,10 @@ declare class FormData {
 
 declare module FormData {
   export interface Options {
-    filename: string;
+    filename?: string;
+    knownLength?: number;
+    header?: string;
+    contentType?: string;
   }
 
   export interface Headers {
